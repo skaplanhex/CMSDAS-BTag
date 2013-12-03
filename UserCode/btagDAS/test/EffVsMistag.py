@@ -45,9 +45,10 @@ def main():
 #    g_qcd =  makeEffVsMistagTGraph("bTaggingMC_CSVM_qcd.root")
     g.Draw("ALP")
 #    g_qcd.Draw("LP")
+    g.SetTitle("b-Tag Performance Curve")
     g.GetXaxis().SetTitle("b efficiency")
     g.GetYaxis().SetTitle("udsg mistag rate")
-    c.SaveAs("output_qcd.png")
+    c.SaveAs("bTagPerformance_ttbar.png")
     sys.stdin.readline()
 
 if __name__ == '__main__':
