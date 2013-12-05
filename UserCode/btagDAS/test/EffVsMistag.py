@@ -49,7 +49,8 @@ def main():
     g.GetXaxis().SetTitle("b efficiency")
     g.GetYaxis().SetTitle("udsg mistag rate")
     c.SaveAs("bTagPerformance_ttbar.png")
-    sys.stdin.readline()
+    raw_input ("Enter to quit:")
+	#sys.stdin.readline()
 
 if __name__ == '__main__':
     main()
