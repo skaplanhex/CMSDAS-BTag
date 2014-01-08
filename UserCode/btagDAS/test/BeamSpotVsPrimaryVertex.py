@@ -44,7 +44,9 @@ def main():
     # RECO or AOD files
     files = [
         '/store/data/Run2012C/BJetPlusX/AOD/PromptReco-v2/000/199/699/D428D9CC-EBD8-E111-97E7-BCAEC5364C42.root',
+# The file immediately below no longer lives at FNAL! For users at FNAL, use the last file in the list for MC.
 #         '/store/mc/Summer12_DR53X/QCD_Pt-50to80_MuEnrichedPt5_TuneZ2star_8TeV_pythia6/AODSIM/PU_S10_START53_V7A-v1/0000/9C43520A-26E7-E111-86DF-E0CB4E55363D.root'
+#	'/store/user/skaplan/CMSDAS2014/QCD_MuEnriched_Events.root',
              ]
     
     fullpath_files = []
